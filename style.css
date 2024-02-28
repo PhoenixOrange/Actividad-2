@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "BreakingBad";
+    src: url(media/BreakingBad.ttf);
+    }
+
+body{
+    font-family: Helvetica;
+}
+
+.fondo_imagen{
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+}
+
+#logo{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+#poster{
+    width: 700px;
+    height: 300px;
+    border: 10px; 
+    border-style: outset; 
+    border-color: brown; 
+    border-radius: 22px;
+    margin: top 20px;
+}
+
+.centro{
+    display:flex;
+   justify-content: center; 
+}
+
+#texto_index{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-family: "BreakingBad";
+    font-size: 36px;
+}
+
+/*ESTILOS DE LA TABLA DE ELEMENTOS*/
+td{
+    width: 65px;
+    height: 50px;
+    text-align: center;
+    vertical-align: center;
+}
+
+#tabla{
+    width: 860px;
+    height: 665px;
+    background-color: #061b08;
+    border-spacing: 10px;
+}
+
+#tabla2{
+    width: 730px;
+    height: 120px;
+    background-color: #061b08;
+    border-spacing: 8px;
+}
+
+#alinear_tabla{
+    display:flex;
+    justify-content: center;
+}
+
+#olive{
+    background-color: #b5db20;
+}
+
+#darkolive{
+    background-color: #828d58;
+}
+
+#wheat{
+    background-color: #eff7c7;
+}
+
+#darkgreen{
+    background-color: #89a41a;
+}
+
+#darkest{
+    background-color: #627126;
+}
+
+#mustard{
+    background-color: #c5e249;
+}
+
+#grey{
+    background-color: #bbc49f;
+}
+
+#yellow{
+    background-color: #d4e87e;
+}
+
+#purple{
+    background-color: #ab8fcc;
+}
+
+#darkyellow{
+    background-color: #c3c629;
+}
+#img_table{
+    width: 90%;
+    height: 90%;
+}
+
+h3{
+    font-size: 9px;
+    padding-bottom: 0px;
+    line-height: 100%;
+}
+
+#tG{
+    font-size:35px;
+    font-weight: bolder;
+    line-height: 100%;
+}
+
+h1{
+    font-size: 48px;
+    color: white;
+}
+
+form{
+    line-height: 150%;
+}
+
+fieldset{
+    width: 700px;
+    color: white;
+}
+
+#formtxt{
+    width: 400px;
+}
+
+#formnumber{
+    width: 70px;
+}

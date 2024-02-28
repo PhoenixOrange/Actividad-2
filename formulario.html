@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Breaking</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="fondo_imagen">  
+    <a href="index.html"><h1 class="centro">Breaking Bad – Que comience el juego!</h1></a>
+    <div class="centro">
+<form action="mailto:raul.rodriguez@proeducaglobal.com" method="post">
+    <fieldset>
+        <legend>Formulario Breaking Bad </legend>
+        <fieldset>
+        <legend>Datos personales</legend>
+        Nombre: <input type="text" name="Nombre" placeholder="ej. Antonio" required>
+        <br>Apellidos: <input type="text" name="Apellidos" placeholder="ej. Goméz Díaz" required>
+        <fieldset style="width: 660px;">
+            <legend>Dirección Postal</legend>
+            Calle: <input type="text" name="Calle" placeholder="ej. Calle Gran Vía" id="formtxt">
+            <br>Número: <input type="number" name="Número" placeholder="ej. 20" id="formnumber"> 
+            Piso: <input type="text" name="Piso" placeholder="ej. 4B" id="formnumber"> 
+            CP: <input type="number" name="CP" placeholder="ej. 28037" id="formnumber"> 
+            Ciudad: <input type="text" placeholder="ej. Madrid" name="Ciudad">
+        </fieldset>
+        <br>DNI: <input type="text" name="DNI" placeholder="12345678B" id="formnumber"> 
+        Email: <input type="text" name="Email" placeholder="ej. micorreo@dominio.com" id="formtxt" required>
+        <br>Sexo: <input type="radio" name="Sexo" id=""> Hombre <input type="radio" name="Sexo" id=""> Mujer <input type="radio" name="Sexo" id=""> NB/Otros
+        <br>Fecha de nacimiento <input type="date" name="" id="">
+        </fieldset>
+        <fieldset>
+            <legend>Datos sobre la serie</legend>
+        Elige tu personaje favorito: <select name="Personajes" id="">
+            <option value="">--Selecciona una opción--</option>
+            <option value="1">Jessie Pinkman</option>
+            <option value="2">Walter White</option>
+            <option value="3">Saul Goodman</option>
+            <option value="4">Gustavo Fring</option>
+            <option value="5">Pollos Hermanos</option>
+            <option value="6">Otros personajes</option>
+        </select>
+        <br>Comentarios:
+        <textarea name="Comentarios" id="" cols="80" rows="10" minlenght="20" maxlength="500" placeholder="Deja aquí tus comentarios sobre la serie"></textarea>
+        </fieldset>
+        <input type="submit" value="Enviar"> 
+        <input type="reset" value="Reiniciar">
+        <input type="file" value="Adjuntar Archivos" accept=".pdf, .doc" multiple>
+    </fieldset>
+</form>
+    </div>
+</body>
+</html>
